@@ -7,6 +7,8 @@ Apache Kafka is a distributed event streaming platform capable of handling high-
 ## Kafka Features
 
 ## Kafka Features
+## Kafka Features
+## Kafka Features
 - **High Throughput**: Kafka can handle millions of messages per second, making it suitable for high-throughput use cases.
 - **Scalability**: Kafka’s architecture supports horizontal scaling, allowing you to add more brokers to handle increased load.
 - **Durability**: Kafka ensures data durability and reliability through replication. Messages are replicated across multiple brokers.
