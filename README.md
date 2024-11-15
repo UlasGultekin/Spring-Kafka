@@ -6,6 +6,7 @@ Apache Kafka is a distributed event streaming platform capable of handling high-
 
 ## Kafka Features
 
+
 - **High Throughput**: Kafka can handle millions of messages per second, making it suitable for high-throughput use cases.
 - **Scalability**: Kafka’s architecture supports horizontal scaling, allowing you to add more brokers to handle increased load.
 - **Durability**: Kafka ensures data durability and reliability through replication. Messages are replicated across multiple brokers.
@@ -13,9 +14,12 @@ Apache Kafka is a distributed event streaming platform capable of handling high-
 - **Message Ordering**: Messages within a partition are strictly ordered. Kafka maintains this order to ensure reliable message consumption.
 - **Real-Time Processing**: Kafka is designed for real-time data streaming, supporting the immediate processing of large volumes of data.
 
+
 ## Kafka Architecture
 
+
 Kafka consists of the following key components:
+
 
 - **Producer**: Sends records to Kafka topics.
 - **Broker**: Receives records from producers, stores them, and serves them to consumers.
@@ -23,6 +27,7 @@ Kafka consists of the following key components:
 - **Partition**: A topic’s log is divided into partitions for parallelism and load balancing.
 - **Consumer**: Reads records from topics. Consumers are organized into consumer groups for load balancing.
 - **Zookeeper**: Manages and coordinates Kafka brokers. It handles leader election and metadata management.
+
 
 ## Dependencies
 
